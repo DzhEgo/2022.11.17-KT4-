@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: serif;
+    background-color: rgba(166, 168, 16, 0.54);
+}
+h1, p {
+    margin: 0;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    width: 100%;
+}
+p {
+    font-size: 27px;
+    width: 100%;
+}
+.aqua1 {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    flex-direction: column;
+}
+.card {
+    height: 200px;
+    width: 300px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(203, 21, 194);
+    border-radius: 5px;
+    gap: 20px;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+.aqua2{
+    margin: -927px 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.card1{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(203, 21, 30);
+    border-radius: 5px;
+    gap: 20px;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+ 
+}
+@media (max-width: 992px) {
+    .aqua1 {
+        width: calc((100% - 40px) / 2);
+    }
+    .aqua2 {
+        width: calc((100% - 40px) / 2);
+    }
+}
+@media (max-width: 768px) {
+    .aqua1 {
+        width: calc((100% - 40px) / 2);
+    }
+    .aqua2 {
+        width: calc((100% - 40px) / 2);
+    }
+}
+@media (max-width: 450px) {
+    .aqua1{
+    width: auto;
+    }
+    .aqua2{
+        width: auto;
+        }
+    .card1 {
+        flex-direction: column;
+    }
+    .card2 {
+        flex-direction: column;
+    }
+}
